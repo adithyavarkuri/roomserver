@@ -40,7 +40,13 @@ require('./Controllers/items.js')(app);
 require('./Controllers/month.js')(app);
 require('./Controllers/User.js')(app);
 
-mongoose.connect('mongodb://adi:adi@ds049084.mlab.com:49084/adi')
+/*var db = mongoose('adi', ['adi']);*/
+
+
+
+/*mongoose.connect('mongodb://adi:adi@ds049084.mlab.com:49084/adi')*/
+
+mongoose.connect('mongodb://localhost:27017/adi')
 
 
  console.log('Listening on port 3000...');
