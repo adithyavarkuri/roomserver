@@ -41,11 +41,6 @@ require('./Controllers/month.js')(app);
 require('./Controllers/User.js')(app);
 
 /*var db = mongoose('adi', ['adi']);*/
-
-
-
-/*mongoose.connect('mongodb://adi:adi@ds049084.mlab.com:49084/adi')*/
-
 mongoose.connect('mongodb://localhost:27017/adi')
 
 
@@ -70,12 +65,3 @@ http.createServer((req, res) => {
 /*http.createServer(app).listen(80 ,function(){
 	console.log('Example app listening on port 80!');
 });*/
-
-
-
-
-/*s*/
-
-/*http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543*/
-
-/*https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens*/
